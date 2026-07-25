@@ -11,7 +11,7 @@ steps:
   - uses: will-molloy/copybara-action@v1
     with:
       git_name: will-molloy
-      git_email: willjoemolloy@gmail.com
+      git_email: git@willmolloy.com
       ssh_key: ${{ secrets.SSH_KEY }}
       ssh_known_hosts: ${{ secrets.KNOWN_HOSTS }}
 ```
